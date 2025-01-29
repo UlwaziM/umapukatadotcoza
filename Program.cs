@@ -5,8 +5,15 @@ using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Services to the container.
 builder.Services.AddControllersWithViews();
+
+//Railway port handling
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    var port = Environment.GetEnvironmentVariable("PORT") ?? "3000";
+    serverOptions.ListenAnyIP(Convert.ToInt32(port));
+});
 
 // Configure Gzip Compression
 builder.Services.Configure<GzipCompressionProviderOptions>(options =>
