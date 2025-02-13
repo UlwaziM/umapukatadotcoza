@@ -68,7 +68,7 @@ function toggleExpandText(event) {
 function addSkillColors(event) {
     const project = event.currentTarget;
     if (project.id === 'umapukata') {
-        for (skill of ['html5', 'css3', 'javascript', 'csharp', 'dotnet', 'bootstrap', 'photoshop']) {
+        for (skill of ['html5', 'css3', 'javascript', 'csharp', 'dotnetcore','aspdotnet', 'bootstrap', 'photoshop']) {
             skillElement = document.getElementById(skill);
             skillElement.classList.add("selected");
         }
