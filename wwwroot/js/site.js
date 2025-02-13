@@ -79,6 +79,12 @@ function addSkillColors(event) {
             skillElement.classList.add("selected");
         }
     }
+    if (project.id === 'bookstore') {
+        for (skill of ['csharp', 'dotnet', 'mongodb', 'csharp','dotnetcore']) {
+            skillElement = document.getElementById(skill);
+            skillElement.classList.add("selected");
+        }
+    }
 }
 
 /**
