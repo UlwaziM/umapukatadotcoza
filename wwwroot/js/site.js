@@ -73,7 +73,7 @@ function addSkillColors(event) {
             skillElement.classList.add("selected");
         }
     }
-    if (project.id === 'solid') {
+    if (project.id === 'soliddemo') {
         for (skill of ['csharp', 'dotnet']) {
             skillElement = document.getElementById(skill);
             skillElement.classList.add("selected");
@@ -85,6 +85,13 @@ function addSkillColors(event) {
             skillElement.classList.add("selected");
         }
     }
+    if (project.id === 'eth') {
+        for (skill of ['solidity', 'truffle', 'ganache', 'web3js', 'metamask']) {
+            skillElement = document.getElementById(skill);
+            skillElement.classList.add("selected");
+        }
+    }
+    
 }
 
 /**
