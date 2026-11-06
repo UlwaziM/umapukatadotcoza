@@ -1,109 +1,101 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Hello, I'm Ulwazi, A reliable and proficient senior .NET developer who self-motivated, logical, and goal-oriented professional known for adaptability.
-          Come view my forever growing portfolio of experiences and personal projects.'" />
-    <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" media="screen"/>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" media="screen"/>
-    <link rel="stylesheet" href="~/umapukatadotcoza.styles.css" asp-append-version="true" media="screen"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+    <meta name="description" content="Ulwazi Mapukata — Senior Software Engineer, Software Architect & Founder. 14 years of experience building enterprise payment platforms, multi-tenant SaaS and mission-critical fintech systems." />
+    <meta name="keywords" content="Ulwazi Mapukata, Senior Software Engineer, Software Architect, .NET Developer, Fintech Engineer, ASP.NET Core, South Africa" />
+    <meta name="author" content="Ulwazi Mapukata" />
+    <meta name="robots" content="index, follow" />
 
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ulwazi Mapukata — Senior Software Engineer & Architect" />
+    <meta property="og:description" content="Engineering software that solves real problems. 14 years of experience building enterprise fintech, multi-tenant SaaS and mission-critical systems." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://umapukatadotcoza.onrender.com/" />
+    <meta property="og:locale" content="en_ZA" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Ulwazi Mapukata — Senior Software Engineer & Architect" />
+    <meta name="twitter:description" content="Engineering software that solves real problems. 14 years of experience building enterprise fintech, multi-tenant SaaS and mission-critical systems." />
+
+    <title>@ViewData["Title"]</title>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@@context": "https://schema.org",
+        "@@type": "Person",
+        "name": "Ulwazi Mapukata",
+        "jobTitle": "Senior Software Engineer & Software Architect",
+        "url": "https://umapukatadotcoza.onrender.com/",
+        "sameAs": [
+            "https://linkedin.com/in/ulwazim",
+            "https://github.com/UlwaziM"
+        ],
+        "address": {
+            "@@type": "PostalAddress",
+            "addressLocality": "East London",
+            "addressCountry": "ZA"
+        },
+        "worksFor": {
+            "@@type": "Organization",
+            "name": "Fakade Innovations (Pty) Ltd"
+        },
+        "knowsAbout": ["Software Engineering", "Software Architecture", "Fintech", ".NET", "ASP.NET Core", "Distributed Systems", "Multi-Tenant SaaS"]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="icon" href="~/favicon.ico" type="image/x-icon" />
 </head>
 <body>
-    <header id="navbar">
-        <nav class="navbar navbar-custom navbar-expand-custom sticky-top bg-white box-shadow">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img id="hori-logo" alt="{ulwazimapukata} logo" height="50" width="130" src="/images/ulwazimapukata-logo.png" /></a>
-                <button id="toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="navbar-lists" class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul id="nav-list" class="navbar-nav collapse navbar-collapse flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Index", "Home")#introduction">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Index", "Home")#about-anchor">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Index", "Home")#edu-exp">Experience & Education</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Index", "Home")#proj-skill">Projects & Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Index", "Home")#contact">Contact</a>
-                        </li>
-                        <li class="nav-item nav-buttons">
-                            <label id="moon" for="moon-btn" class="btn btn-primary nav-button">
-                                <img id="moon-img" src="/images/moon.png" alt="Toggle Dark Mode" height="22" width="22" loading="lazy"/>
-                                <input type="checkbox" id="moon-btn" style="display: none;">
-                            </label>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container" id="content">
-        <main role="main">
-            @RenderBody()
-        </main>
-    </div>
-    <footer id="contact" class="border-top footer text-muted">
-        <div class="container" id="footer-left">
-            <a class="footer-brand" asp-area="" asp-controller="Home" asp-action="Index"><img id="hori-logo-footer" height="50" width="130" src="/images/ulwazimapukata-logo.png" alt="umapukata logo"/></a>
-            <div class="container" id="left-footer-buttons">
-                <a class="footer-links" asp-area="" asp-controller="Home" asp-action="PrivacyPolicy">Privacy Policy</a>
-                <p class="footer-links footer-text">|</p>
-                <a class="footer-links" href="#top">Back to Top</a>
-            </div>
-        </div>
-        <div class="container" id="footer-right">
-            <ul id="contact-list">
-                <li>
-                    <a class="footer-buttons" target="_blank" href="https://www.linkedin.com/in/ulwazi-mapukata-6966b980">
-                        <img class="footer-img" src="/images/linkedin.png" alt="linkedin icon"/>
-                    </a>
-                    <a class="footer-buttons" target="_blank" href="https://www.instagram.com/ulwazi_f_m?igsh=MW44cG8zNHg0NHh5Zg==">
-                        <img class="footer-img" src="/images/instagram-logo-5.png" alt="instagram icon" />
-                    </a>
-                    <a class="footer-buttons" target="_blank" href="https://github.com/UlwaziM">
-                        <img class="footer-img" src="/images/github.png" alt="github icon" />
-                    </a>
-                </li>
-                <li>
-                    <p class="footer-text">Email:</p>
-                    <a class="footer-links" target="_blank" href="mailto:ulwazim@gmail.com">ulwazim@gmail.com</a>
-                </li>
-                <li>
-                    <p class="footer-text">Phone:</p>
-                    <a class="footer-links" target="_blank" href="tel:+2760-992-5893">+2760-992-5893</a>
-                </li>
+    <!-- Navigation -->
+    <nav class="site-nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a class="nav-brand" href="/" aria-label="Home">
+                ulwazi<span class="brand-accent">.</span>dev
+            </a>
+            <ul class="nav-links" id="nav-links" role="menubar">
+                <li role="none"><a role="menuitem" href="#about">About</a></li>
+                <li role="none"><a role="menuitem" href="#experience">Experience</a></li>
+                <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+                <li role="none"><a role="menuitem" href="#skills">Expertise</a></li>
+                <li role="none"><a role="menuitem" href="#certifications">Credentials</a></li>
+                <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
             </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p class="footer-copy">&copy; @DateTime.Now.Year Ulwazi Mapukata. All rights reserved.</p>
+                <ul class="footer-links">
+                    <li><a href="https://linkedin.com/in/ulwazim" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="https://github.com/UlwaziM" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    <li><a href="mailto:ulwazim@gmail.com">Email</a></li>
+                    <li><a asp-controller="Home" asp-action="PrivacyPolicy">Privacy</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+
     <script src="~/js/site.js" asp-append-version="true" defer></script>
     @await RenderSectionAsync("Scripts", required: false)
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/67b3546fd93d101910414b05/1ika83lo4';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
 </body>
 </html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://umapukatadotcoza.onrender.com/sitemap.xml

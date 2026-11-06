@@ -1,0 +1,677 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\umapukatadotcoza.bundle.scp.css",
+      "PackagePath": "staticwebassets\\umapukatadotcoza.6uvvw751lm.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\M-Works1.webp",
+      "PackagePath": "staticwebassets\\images\\M-Works1.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\M-Works3.png",
+      "PackagePath": "staticwebassets\\images\\M-Works3.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\Rain Invoice January.pdf",
+      "PackagePath": "staticwebassets\\images\\Rain Invoice January.pdf"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\Seat at the Table Cover 2.JPG",
+      "PackagePath": "staticwebassets\\images\\Seat at the Table Cover 2.JPG"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\absa-logo-old.webp",
+      "PackagePath": "staticwebassets\\images\\absa-logo-old.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\absa-logo.png",
+      "PackagePath": "staticwebassets\\images\\absa-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\absa-logo.webp",
+      "PackagePath": "staticwebassets\\images\\absa-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\acsu-logo.png",
+      "PackagePath": "staticwebassets\\images\\acsu-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\aspdotnetmvc-icon.png",
+      "PackagePath": "staticwebassets\\images\\aspdotnetmvc-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\azure-devops-icon.png",
+      "PackagePath": "staticwebassets\\images\\azure-devops-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\azure-devops-logo.webp",
+      "PackagePath": "staticwebassets\\images\\azure-devops-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\bootstrap-icon.png",
+      "PackagePath": "staticwebassets\\images\\bootstrap-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\bottom-left-line.png",
+      "PackagePath": "staticwebassets\\images\\bottom-left-line.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\bottom-right-line.png",
+      "PackagePath": "staticwebassets\\images\\bottom-right-line.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\cazenovia-logo.png",
+      "PackagePath": "staticwebassets\\images\\cazenovia-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\cazenovia-logo.webp",
+      "PackagePath": "staticwebassets\\images\\cazenovia-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\cornell-logo.png",
+      "PackagePath": "staticwebassets\\images\\cornell-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\cornell-logo.webp",
+      "PackagePath": "staticwebassets\\images\\cornell-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\csharp-icon.png",
+      "PackagePath": "staticwebassets\\images\\csharp-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\css-icon.png",
+      "PackagePath": "staticwebassets\\images\\css-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\dark-bottom-left-line.png",
+      "PackagePath": "staticwebassets\\images\\dark-bottom-left-line.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\dark-top-right-line.png",
+      "PackagePath": "staticwebassets\\images\\dark-top-right-line.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\docker-icon.png",
+      "PackagePath": "staticwebassets\\images\\docker-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\dotnetcore-icon.png",
+      "PackagePath": "staticwebassets\\images\\dotnetcore-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\eye-on.png",
+      "PackagePath": "staticwebassets\\images\\eye-on.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\fakade-logo.png",
+      "PackagePath": "staticwebassets\\images\\fakade-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\fakade-logo.webp",
+      "PackagePath": "staticwebassets\\images\\fakade-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\ganache-icon.png",
+      "PackagePath": "staticwebassets\\images\\ganache-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\git-icon.png",
+      "PackagePath": "staticwebassets\\images\\git-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\github.png",
+      "PackagePath": "staticwebassets\\images\\github.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\h-icon.png",
+      "PackagePath": "staticwebassets\\images\\h-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\handshake.png",
+      "PackagePath": "staticwebassets\\images\\handshake.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\headshot-bw.png",
+      "PackagePath": "staticwebassets\\images\\headshot-bw.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\headshot-bw.webp",
+      "PackagePath": "staticwebassets\\images\\headshot-bw.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\headshot-color.png",
+      "PackagePath": "staticwebassets\\images\\headshot-color.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\headshot-color.webp",
+      "PackagePath": "staticwebassets\\images\\headshot-color.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\html-icon.png",
+      "PackagePath": "staticwebassets\\images\\html-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\hudson-icon.png",
+      "PackagePath": "staticwebassets\\images\\hudson-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\hudson-icon.webp",
+      "PackagePath": "staticwebassets\\images\\hudson-icon.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\in-icon.png",
+      "PackagePath": "staticwebassets\\images\\in-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\instagram-logo-2.png",
+      "PackagePath": "staticwebassets\\images\\instagram-logo-2.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\instagram-logo-3.png",
+      "PackagePath": "staticwebassets\\images\\instagram-logo-3.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\instagram-logo-4.png",
+      "PackagePath": "staticwebassets\\images\\instagram-logo-4.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\instagram-logo-5.png",
+      "PackagePath": "staticwebassets\\images\\instagram-logo-5.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\instagram-logo.png",
+      "PackagePath": "staticwebassets\\images\\instagram-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\java-icon.png",
+      "PackagePath": "staticwebassets\\images\\java-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\javascript-icon.png",
+      "PackagePath": "staticwebassets\\images\\javascript-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\js-icon.png",
+      "PackagePath": "staticwebassets\\images\\js-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\json-icon.png",
+      "PackagePath": "staticwebassets\\images\\json-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\julia-academy-logo-2.png",
+      "PackagePath": "staticwebassets\\images\\julia-academy-logo-2.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\julia-academy-logo-2.webp",
+      "PackagePath": "staticwebassets\\images\\julia-academy-logo-2.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\julia-academy-logo.png",
+      "PackagePath": "staticwebassets\\images\\julia-academy-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\julia-academy-logo.webp",
+      "PackagePath": "staticwebassets\\images\\julia-academy-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\julia-icon.png",
+      "PackagePath": "staticwebassets\\images\\julia-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\linkedin-icon.png",
+      "PackagePath": "staticwebassets\\images\\linkedin-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\linkedin.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\metamask-icon.png",
+      "PackagePath": "staticwebassets\\images\\metamask-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\microsoft-logo.png",
+      "PackagePath": "staticwebassets\\images\\microsoft-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\microsoft-logo.webp",
+      "PackagePath": "staticwebassets\\images\\microsoft-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\milpark-logo-2.png",
+      "PackagePath": "staticwebassets\\images\\milpark-logo-2.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\milpark-logo-2.webp",
+      "PackagePath": "staticwebassets\\images\\milpark-logo-2.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\milpark-logo-3.png",
+      "PackagePath": "staticwebassets\\images\\milpark-logo-3.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\milpark-logo.png",
+      "PackagePath": "staticwebassets\\images\\milpark-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\milpark-logo.webp",
+      "PackagePath": "staticwebassets\\images\\milpark-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\mongodb-icon.png",
+      "PackagePath": "staticwebassets\\images\\mongodb-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\moon.png",
+      "PackagePath": "staticwebassets\\images\\moon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\net-icon.png",
+      "PackagePath": "staticwebassets\\images\\net-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\numpy-icon.png",
+      "PackagePath": "staticwebassets\\images\\numpy-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\objectivec-icon.png",
+      "PackagePath": "staticwebassets\\images\\objectivec-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\ocaml-icon.png",
+      "PackagePath": "staticwebassets\\images\\ocaml-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\oracle-logo.png",
+      "PackagePath": "staticwebassets\\images\\oracle-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\oracle-logo.webp",
+      "PackagePath": "staticwebassets\\images\\oracle-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\pandas-icon.png",
+      "PackagePath": "staticwebassets\\images\\pandas-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\photoshop-icon.png",
+      "PackagePath": "staticwebassets\\images\\photoshop-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\pricefm-logo.png",
+      "PackagePath": "staticwebassets\\images\\pricefm-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\pricefm-logo.webp",
+      "PackagePath": "staticwebassets\\images\\pricefm-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\project-bottom.png",
+      "PackagePath": "staticwebassets\\images\\project-bottom.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\python-icon.png",
+      "PackagePath": "staticwebassets\\images\\python-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\qgis-icon.png",
+      "PackagePath": "staticwebassets\\images\\qgis-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\sansa-logo.png",
+      "PackagePath": "staticwebassets\\images\\sansa-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\sansa-logo.webp",
+      "PackagePath": "staticwebassets\\images\\sansa-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\scrum-alliance-logo.png",
+      "PackagePath": "staticwebassets\\images\\scrum-alliance-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\scrum-alliance-logo.webp",
+      "PackagePath": "staticwebassets\\images\\scrum-alliance-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\selenium-icon.png",
+      "PackagePath": "staticwebassets\\images\\selenium-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\solid-bottom.png",
+      "PackagePath": "staticwebassets\\images\\solid-bottom.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\solidity-icon.png",
+      "PackagePath": "staticwebassets\\images\\solidity-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\sql-icon.png",
+      "PackagePath": "staticwebassets\\images\\sql-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\sun.png",
+      "PackagePath": "staticwebassets\\images\\sun.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\top-left-line.png",
+      "PackagePath": "staticwebassets\\images\\top-left-line.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\top-right-line.png",
+      "PackagePath": "staticwebassets\\images\\top-right-line.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\truffle-suite-icon.png",
+      "PackagePath": "staticwebassets\\images\\truffle-suite-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\ulwazimapukata-logo.png",
+      "PackagePath": "staticwebassets\\images\\ulwazimapukata-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\ulwazimapukata-logo.webp",
+      "PackagePath": "staticwebassets\\images\\ulwazimapukata-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\unoosa-logo.png",
+      "PackagePath": "staticwebassets\\images\\unoosa-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\unoosa-logo.webp",
+      "PackagePath": "staticwebassets\\images\\unoosa-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\walter-sisulu-logo-2.png",
+      "PackagePath": "staticwebassets\\images\\walter-sisulu-logo-2.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\walter-sisulu-logo.png",
+      "PackagePath": "staticwebassets\\images\\walter-sisulu-logo.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\walter-sisulu-logo.webp",
+      "PackagePath": "staticwebassets\\images\\walter-sisulu-logo.webp"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\web3-icon.png",
+      "PackagePath": "staticwebassets\\images\\web3-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\images\\xaml-icon.png",
+      "PackagePath": "staticwebassets\\images\\xaml-icon.png"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "c:\\Projects\\.net_portfolio_website\\personal-portfolio-website\\umapukatadotcoza\\umapukatadotcoza\\wwwroot\\sitemap.xml",
+      "PackagePath": "staticwebassets\\sitemap.xml"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.umapukatadotcoza.props",
+      "PackagePath": "build\\umapukatadotcoza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.umapukatadotcoza.props",
+      "PackagePath": "buildMultiTargeting\\umapukatadotcoza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.umapukatadotcoza.props",
+      "PackagePath": "buildTransitive\\umapukatadotcoza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.umapukatadotcoza.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.umapukatadotcoza.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

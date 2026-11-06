@@ -1,442 +1,478 @@
-﻿@{
-    ViewData["Title"] = "Ulwazi Mapukata • Portfolio";
+@{
+    ViewData["Title"] = "Ulwazi Mapukata — Senior Software Engineer & Architect";
 }
 
-<body>
-    <div id="top"></div>
-    <div class="section" id="introduction">
-        <div id="bg-div"></div>
-        <div id="intro-content">
-            <div id="intro-left" class="animate-scroll intro-half">
-                <div id="headshot-content">
-                    <div id="headshots">
-                        <picture>
-                            <source srcset="images/headshot-bw.webp" type="image/webp">
-                            <img id="headshot-bw" class="headshot" src="/images/headshot-bw.png" alt="black and white headshot of ulwazi mapukata" width="512" />
-                        </picture>
-                        <picture>
-                            <source srcset="images/headshot-color.webp" type="image/webp">
-                            <img id="headshot-color" class="headshot crop" src="/images/headshot-color.png" alt="color headshot of ulwazi mapukata" width="512" />
-                        </picture>
-                    </div>
-                </div>
-                <div id="social-buttons">
-                    <a id="in-btn" class="btn btn-primary social" target="_blank" href="https://www.linkedin.com/in/ulwazi-mapukata-6966b980"><img class="social-img" src="/images/in-icon.png" alt="linkedin icon" width="64" /></a>
-                    <a id="h-btn"class="btn btn-primary social" target="_blank" href="https://www.instagram.com/ulwazi_f_m?igsh=MW44cG8zNHg0NHh5Zg=="><img class="social-img" src="/images/instagram-logo-5.png" alt="instagram icon"width="64"/></a>
-                    <a id="git-btn" class="btn btn-primary social" target="_blank" href="https://github.com/UlwaziM"><img class="social-img" src="images/git-icon.png" alt="github icon" width="64"/></a>
-                </div>
+<!-- Hero -->
+<section class="hero" id="hero">
+    <div class="hero-inner">
+        <div class="hero-content animate-on-scroll">
+            <span class="hero-label">Software Engineer · Architect · Founder</span>
+            <h1 class="hero-title">
+                Engineering software<br />
+                that solves <span class="accent-line">real problems.</span>
+            </h1>
+            <p class="hero-description">
+                I'm a software engineer, architect and founder with 14 years of experience building 
+                and modernising high-availability systems.
+            </p>
+            <p class="hero-description">
+                From enterprise payment infrastructure to multi-tenant SaaS platforms, I focus on 
+                building reliable software that makes complex operations simpler.
+            </p>
+            <div class="hero-identity">
+                <p class="hero-name">Ulwazi Mapukata</p>
+                <p class="hero-role">Senior Software Engineer · Software Architect · Founder</p>
+                <p class="hero-location">📍 East London, South Africa</p>
             </div>
-            <div id="intro-right" class="animate-scroll intro-half">
-                <div id="title-text">
-                    <h1 id="intro-title"><b>Hello,</b><br />I'm Ulwazi</h1>
-                    <p id="intro-tagline">A reliable and proficient senior .NET developer who self-motivated, logical, and goal-oriented professional known for adaptability.</p>
-                </div>
-                <div id="intro-buttons">
-                    <a id="resume-btn" class="btn btn-primary intro" target="_blank" href="https://drive.google.com/file/d/1fUuCs8MA4pqLrl6svrW4T1SeLfpdxFrf/view?usp=sharing">RESUME</a>
-                    <a id="meeting-btn" class="btn btn-primary intro" target="_blank" href="https://calendly.com/ulwazim/30min">SCHEDULE A MEETING</a>
-                </div>
+            <div class="hero-ctas">
+                <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                <a href="/Resume/Ulwazi_Mapukata_Resume_ZA.pdf" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download Resume
+                </a>
+            </div>
+            <div class="hero-social">
+                <a href="https://linkedin.com/in/ulwazim" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a href="https://github.com/UlwaziM" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+                <a href="mailto:ulwazim@gmail.com" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </a>
             </div>
         </div>
-        <a class="btn-arrow" href=#about-anchor id="about-me-button">About Me<br />∨</a>
+        <div class="hero-photo animate-on-scroll">
+            <div class="hero-photo-wrapper">
+                <picture>
+                    <source srcset="/images/headshot-color.webp" type="image/webp" />
+                    <img src="/images/headshot-color.png" alt="Ulwazi Mapukata — professional headshot" width="512" height="512" loading="eager" />
+                </picture>
+            </div>
+        </div>
     </div>
-    <div id="about-anchor"></div>
-    <article class="section" id="about-me">
-        <div id="about-content">
-            <h1 class="animate-scroll" id="about-header"><strong>About Me</strong></h1>
-            <h1 class="animate-scroll" id="about-header"><strong>About Me</strong></h1>
-            <p class="animate-scroll" id="about-me-paragraph">
-                With over 12 years of experience as a Senior Full-Stack Engineer, I specialize in architecting secure, scalable enterprise solutions using <strong>.NET Core/C#</strong>, Python, and front-end technologies (HTML/JavaScript/CSS), delivering systems like Absa’s banking platforms that process 1M+ transactions monthly with 99.9% uptime.<br /><br />
+</section>
 
-                As CTO of <strong>Fakade Innovations</strong>, I lead the development of M-Works Impact, a Python-based ERP (Tryton, PostgreSQL) hosted on Nginx with Cloudflare Tunnel on Ubuntu Linux, delivering donor management and compliance modules for South African NGOs with CI/CD pipelines via Gitea and Drone CI. I also contributed to EcoYield, an AI-powered AgriTech platform. My role includes mentoring teams, driving Agile SDLC processes, and ensuring robust, maintainable code.<br /><br />
-
-                Proficient in <a id="more-skills" href="#proj-skill">C#, ASP.NET MVC/Core</a>, RESTful APIs, PostgreSQL/SQL Server optimization, and DevOps (Azure DevOps, Docker, Podman), I excel in designing high-performance systems, implementing automated testing, and fostering team collaboration to deliver innovative, user-focused solutions.
+<!-- About -->
+<section class="about section" id="about">
+    <div class="container">
+        <div class="about-content animate-on-scroll">
+            <span class="section-label">About</span>
+            <h2 class="section-title">Building software that works.</h2>
+            <p>
+                Over the past 14 years I've worked across the full spectrum of software engineering — from 
+                designing and maintaining enterprise banking platforms that process over a million transactions 
+                monthly, to architecting multi-tenant SaaS products from the ground up.
+            </p>
+            <p>
+                My career began at Absa Bank, where I spent over a decade engineering mission-critical payment 
+                systems, retail partner integrations and remote-sales platforms. I progressed from Specialist 
+                Product Engineer to Lead Product Engineer (VP level), responsible for systems that maintained 
+                99.9% availability and contributed to hundreds of millions in business value.
+            </p>
+            <p>
+                In 2024 I founded <strong>Fakade Innovations (Pty) Ltd</strong>, the company behind the 
+                <strong>M-Works™</strong> software platform — a suite of products I've designed and built to 
+                solve real operational problems for businesses. From payroll orchestration to white-label 
+                commerce platforms, M-Works represents my transition from enterprise engineering into 
+                product ownership and entrepreneurship.
+            </p>
+            <p>
+                I'm interested in distributed systems, cloud-native architecture, automation and the practical 
+                application of AI in software engineering workflows. I build what businesses need, not what 
+                tech trends tell them to.
             </p>
         </div>
-        <a class="btn-arrow" href=#edu-exp id="credentials-button">My Credentials<br />∨</a>
-        <img id="top-left-line" src="/images/top-left-line.png" alt="top corner art yellow" />
-        <img id="bottom-right-line" src="/images/bottom-right-line.png" alt="bottom corner art yellow"/>
-    </article>
-    <section class="section" id="edu-exp">
-        <div id="edu-exp-title">
-            <h2>Experience & Education</h2>
-            <button id="edu-exp-expand" class="btn-arrow expand" data-bs-toggle="collapse" data-bs-target="#edu-exp-info">Expand<br />∨</button>
-        </div>
-    </section>
-    <div id="collapse-container">
-        <div class="collapse" id="edu-exp-info">
-            <div id="edu-exp-box">
-                <div id="edu-exp-content">
-                    <h3>Work Experience</h3>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-    <picture>
-        <source srcset="images/M-Works1.webp" type="image/webp">
-        <img class="edu-exp-img" src="images/M-Works3.png" height="256" width="256" loading="lazy">
-    </picture>
-    <div info>
-        <h5 class="date">Jan 2024 - Present</h5>
-        <h4 class="header">Chief Technology Officer</h4>
-        <h6 class="subheader">Fakade Innovations (Pty) Ltd • East London, South Africa</h6>
-        <p class="details">
-            <ul class="details">
-                <li>
-                     <strong>Platform Development:</strong> Architected M-Works Impact, a Python-based ERP (Tryton, PostgreSQL, HTML/JavaScript/CSS) hosted on Nginx with Cloudflare Tunnel on Ubuntu Linux, delivering donor management and compliance modules for South African NGOs with 99.9% uptime.
-                </li>
-                <li>
-                     <strong>Team Leadership:</strong> Led a team of 3 engineers using Agile/Scrum, mentoring on Python, PostgreSQL optimization, and front-end best practices, improving code quality by 30%.
-                </li>
-                <li>
-                     <strong>DevOps:</strong> Implemented CI/CD pipelines with Gitea and Drone CI, reducing deployment time by 50% and ensuring secure, scalable, and maintainable systems.
-                </li>
-                <li>
-                    <strong>API Development:</strong> Designed secure REST APIs using Tryton and OAuth/SSL, enabling seamless integrations for nonprofit workflows.
-                </li>
-                <li>
-                     <strong>Innovation:</strong> Contributed to EcoYield, an AI-powered AgriTech platform, integrating IoT sensor data for real-time analytics.
-                </li>
-            </ul>
-        </p>
     </div>
-</div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/absa-logo.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/absa-logo.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                            <h5 class="date">Jan 2021 - Dec 2023</h5>
-                            <h4 class="header">Lead Product Engineer (VP)</h4>
-                            <h6 class="subheader">Absa Bank Limited • Johannesburg, South Africa</h6>
-                            <p class="details">
-                                <ul class="details">
-                                    <li>
-                                        <strong>Frontend & UI Development:</strong> Designed and built responsive,
-                                        user-friendly interfaces using ASP.NET Core (Razor), JavaScript,
-                                        CSS, and CSHTML.
-                                    </li>
-                                    <li>
-                                        <strong>Backend & API Development:</strong> Architected scalable, highperformance
-                                        APIs using C#, .NET Core, and Entity Framework,
-                                        ensuring seamless integrations with banking systems.
-                                    </li>
-                                    <li>
-                                        <strong>Source Control & CI/CD:</strong> Managed TFS (later Azure DevOps)
-                                        repositories, implementing CI/CD pipelines to automate builds,
-                                        testing, and deployments.
-                                    </li>
-                                    <li>
-                                        <strong>Application Hosting & Deployment:</strong> Deployed and managed internal and external web applications on IIS,
-                                        implementing load balancing and SSL encryption to ensure high availability and reliability.
-                                    </li>
-                                    <li>
-                                        <strong>Disaster Recovery & Uptime:</strong> Led bi-annual disaster recovery
-                                        exercises across all projects, ensuring high availability and zero
-                                        service interruptions.
-                                    </li>
-                                    <li>
-                                        <strong> Geolocation & Device Monitoring: </strong> Maintained device location tracking and monitored system health with Aternity Dashboard.
+</section>
 
-                                    </li>
-                                    <li>
-                                        <strong>API Traffic Monitoring:</strong> Used Grafana and New Relic for real-time API monitoring and rapid issue resolution.
+<!-- Experience -->
+<section class="section" id="experience">
+    <div class="container">
+        <span class="section-label animate-on-scroll">Experience</span>
+        <h2 class="section-title animate-on-scroll">Professional Journey</h2>
+        <p class="section-subtitle animate-on-scroll">14 years of engineering experience across enterprise fintech, SaaS and product development.</p>
 
-                                    </li>
-                                    <li>
-                                        <strong>Technical Leadership:</strong> Mentored junior engineers, enforced
-                                        best practices for full-stack development, and conducted code
-                                        reviews to maintain high code quality.
-                                    </li>
-                                    <li>
-                                        <strong>Cross-functional Collaboration:</strong> Worked with UI/UX teams,
-                                        security engineers,risk and compliance officials and product managers to align technology
-                                        with business needs.
-                                    </li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/absa-logo.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/absa-logo.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                            <h5 class="date">Sep 2012 - Dec 2021</h5>
-                            <h4 class="header">Specialist Product Engineer (AVP)</h4>
-                            <h6 class="subheader">Absa Bank Limited • Johannesburg, South Africa</h6>
-                            <p class="details">
-                                <ul class="details">
-                                    <li>
-                                        <strong> Full-Stack Development:</strong> Built robust frontend and backend
-                                        systems, optimizing performance and usability.
-                                    </li>
-                                    <li>
-                                        <strong>Database & API Management:</strong> Developed secure, highavailability
-                                        APIs using Entity Framework and .NET Core for
-                                        seamless database interactions.
-                                    </li>
-                                    <li>
-                                        <strong>Version Control & CI/CD:</strong> Used TFS/Azure DevOps to manage
-                                        repositories and implement CI/CD pipelines for SIT, UAT, and
-                                        Production deployments.
-                                    </li>
-                                     
-                                    <li>
-                                        <strong>Geolocation & Device Monitoring:</strong> Tracked remote sales devices via Geolocation .NET Library and monitored performance with Aternity Dashboard.
-                                    </li>
-                                    
-                                    <li>
-                                        <strong> API Traffic Monitoring:</strong> Monitored and reported service failures using Grafana and New Relic.
-                                    </li>
-                                    <li>
-                                        <strong>Application Hosting & Maintenance:</strong> Deployed and
-                                        maintained applications on IIS, ensuring secure hosting for
-                                        both internal and external-facing platforms.
-                                    </li>
-                                    <li>
-                                        <strong>Disaster Recovery & Performance Optimization:</strong>
-                                        Conducted bi-annual disaster recovery simulations, ensuring
-                                        all applications maintained 99.9% uptime.
-                                    </li>
-                                    <li>
-                                        <strong>Security & Compliance:</strong>  Ensured end-to-end encryption,
-                                        authentication protocols, and API security best practices.
-                                    </li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                    <h3>Education</h3>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/microsoft-logo.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/microsoft-logo.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                            <h4 class="header">Microsoft</h4>
-                            <h6 class="subheader">AI for Managers</h6>
-                        </div>
-                    </div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/microsoft-logo.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/microsoft-logo.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                            <h4 class="header">Microsoft</h4>
-                            <h6 class="subheader">Microsoft Applied Skills: Build distributed apps with .NET Aspire</h6>
-                        </div>
-                    </div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/julia-academy-logo-2.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/julia-academy-logo-2.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                            <h4 class="header">Julia Academy</h4>
-                            <h6 class="subheader">Certificate in Data Science</h6>
-                        </div>
-                    </div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/scrum-alliance-logo.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/scrum-alliance-logo.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                            <h4 class="header">Scrum Alliance</h4>
-                            <h6 class="subheader">Certified Scrum Master ®</h6>
-                        </div>
-                    </div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/oracle-logo.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/oracle-logo.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                            <h4 class="header">Oracle</h4>
-                            <h6 class="subheader">Certified Professional: Oracle Java SE 6 Programmer</h6>
-                        </div>
-                    </div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/milpark-logo-2.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/milpark-logo-2.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                            <h4 class="header">Milpark Business School</h4>
-                            <h6 class="subheader">National Certificate: Banking Services Advice</h6>
-                        </div>
-                    </div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/walter-sisulu-logo.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/walter-sisulu-logo.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                          @*   <h5 class="date">Class of 2010</h5> *@
-                            <h4 class="header">Walter Sisulu University</h4>
-                            <h6 class="subheader">National Diploma: Information Technology (Pending Completion)</h6>
-                            <p class="details">Relevant Coursework:</p>
-                            <ul class="details">
-                                <li>Software Development(VB,C++,Java)</li>
-                                <li>Information Systems</li>
-                                <li>Technical Programming</li>
-                                <li>Data Structures and Object Oriented Programming</li>
-                                <li>System Software</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <picture>
-                            <source srcset="images/hudson-icon.webp" type="image/webp">
-                            <img class="edu-exp-img" src="images/hudson-icon.png" height="256" width="256" loading="lazy">
-                        </picture>
-                        <div info>
-                           @*  <h5 class="date">Class of 2021</h5> *@
-                            <h4 class="header">Hudson Park High School</h4>
-                            <h6 class="subheader">Matric (High School Diploma)</h6>
-                        </div>
-                    </div>
+        <div class="timeline">
+            <!-- Fakade Innovations -->
+            <div class="timeline-item animate-on-scroll">
+                <p class="timeline-date">January 2024 — Present</p>
+                <h3 class="timeline-role">Founder & Software Architect</h3>
+                <p class="timeline-company">Fakade Innovations (Pty) Ltd · East London, South Africa</p>
+                <ul class="timeline-details">
+                    <li>Founded and architected the M-Works™ platform suite — a collection of multi-tenant SaaS applications.</li>
+                    <li>Designed and built payroll orchestration and business operations platforms.</li>
+                    <li>Developed secure REST APIs with authentication and tenant isolation.</li>
+                    <li>Established CI/CD pipelines and containerised deployments using Docker/Podman.</li>
+                    <li>Responsible for product strategy, architecture and technical delivery across all M-Works products.</li>
+                </ul>
+            </div>
 
-                    <h3>Extracurriculars</h3>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <img class="edu-exp-img" src="images/sansa-logo.png" height="256" width="256" loading="lazy">
-                        <div info>
-                            <h5 class="date"> 2023 - 2024</h5>
-                            <h4 class="header">SANSA</h4>
-                            <h6 class="subheader">South African National Space Agency</h6>
-                            <p class="details">
-                                <ul class="details">
-                                    <li><strong>SANSA Trainings:</strong> <br />Participated in specialized trainings by the South African National Space Agency.</li>
-                                    <li><strong>Earth Observation Data & Geospatial Technology:</strong> <br />Completed a training focused on using QGIS and other space technologies for decision-making in local municipality areas, emphasizing practical</li>
-                                    <li><strong>Harnessing Space Technological Applications in Sustainable Urban Development:</strong> <br />This training highlighted the use of Julia Programming Language for space-related applications, specifically to visualize and process earth observation data for sustainable human settlement applications.</li>
-                                </ul>
+            <!-- Alignerr -->
+            <div class="timeline-item animate-on-scroll">
+                <p class="timeline-date">August 2026</p>
+                <h3 class="timeline-role">AI Code Evaluator <span style="font-weight:400;color:var(--text-muted);">(Contract)</span></h3>
+                <p class="timeline-company">Alignerr</p>
+                <ul class="timeline-details">
+                    <li>Evaluated AI-generated code and model responses for repository-based software engineering tasks.</li>
+                    <li>Compared model outputs using structured evaluation workflows.</li>
+                    <li>Assessed correctness, honesty and agentic safety of AI-generated solutions.</li>
+                    <li>Produced evidence-based assessments following task-specific guidelines.</li>
+                </ul>
+            </div>
 
-                            </p>
-                        </div>
-                    </div>
-                    <div class="edu-exp-div box-shadow animate-scroll">
-                        <img class="edu-exp-img" src="images/unoosa-logo.png" height="256" width="256" loading="lazy">
-                        <div info>
-                            <h5 class="date"> 2023 - 2024</h5>
-                            <h4 class="header">UNOOSA</h4>
-                            <h6 class="subheader">United Nations Office for Outer Space Affairs</h6>
-                            <p class="details">
-                                <ul class="details">
-                                    <li><strong>UNOOSA Events:</strong><br /> Participated in prestigious events organized by the United Nations Office for Outer Space Affairs, enhancing expertise and networking.</li>
-                                    <li><strong>EUSPA Entrepreneurship Training:</strong><br /> Completed specialized training provided by the European Union Agency for the Space Programme.</li>
-                                    <li><strong>Copernicus Data Training:</strong><br /> Participated in training on the use of data from Copernicus Climate Change and Atmosphere Monitoring Services, conducted by ECMWF.</li>
-                                    <li><strong>UN/Austria Symposium:</strong><br /> Attended the symposium in July 2024, organized by UNOOSA and the Government of Austria.</li>
-                                </ul>
+            <!-- Absa VP -->
+            <div class="timeline-item animate-on-scroll">
+                <p class="timeline-date">January 2022 — December 2023</p>
+                <h3 class="timeline-role">Lead Product Engineer <span style="font-weight:400;color:var(--text-muted);">(VP Level)</span></h3>
+                <p class="timeline-company">Absa Bank Limited · Johannesburg, South Africa</p>
+                <ul class="timeline-details">
+                    <li>Led engineering for mission-critical payment and retail partner integration platforms.</li>
+                    <li>Supported systems processing more than 1 million monthly transactions.</li>
+                    <li>Maintained 99.9% platform availability across all managed applications.</li>
+                    <li>Improved performance, reliability and deployment automation.</li>
+                    <li>Mentored engineers and collaborated across architecture, product and operations teams.</li>
+                    <li>Led bi-annual disaster recovery exercises ensuring zero service interruptions.</li>
+                    <li>Used Grafana and New Relic for real-time API monitoring and rapid issue resolution.</li>
+                </ul>
+            </div>
 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <img id="top-right-line" src="/images/top-right-line.png" loading="lazy"/>
-                <img id="bottom-left-line" src="/images/bottom-left-line.png" loading="lazy"/>
+            <!-- Absa AVP -->
+            <div class="timeline-item animate-on-scroll">
+                <p class="timeline-date">September 2012 — December 2021</p>
+                <h3 class="timeline-role">Specialist Product Engineer <span style="font-weight:400;color:var(--text-muted);">(AVP Level)</span></h3>
+                <p class="timeline-company">Absa Bank Limited · Johannesburg, South Africa</p>
+                <ul class="timeline-details">
+                    <li>Designed and enhanced enterprise banking applications using C#, .NET and Entity Framework.</li>
+                    <li>Delivered payment, onboarding and retail banking solutions contributing to R300M+ in business value.</li>
+                    <li>Scaled onboarding and remote-sales platforms to thousands of concurrent users during COVID-19.</li>
+                    <li>Developed integrations with internal banking systems and external retail partners.</li>
+                    <li>Managed CI/CD pipelines using TFS and Azure DevOps for SIT, UAT and Production deployments.</li>
+                    <li>Deployed and maintained applications on IIS with load balancing and SSL encryption.</li>
+                    <li>Ensured end-to-end encryption, authentication protocols and API security best practices.</li>
+                </ul>
             </div>
         </div>
     </div>
-    <section class="section" id="proj-skill">
-        <div id="proj-skill-title">
-            <h2>Projects & Skills</h2>
-            <button id="skill-expand-button" class="btn-arrow expand" data-bs-toggle="collapse" data-bs-target="#proj-skill-info">Expand<br />∨</button>
-        </div>
-    </section>
-    <div id="proj-skill-container">
-        <div class="collapse" id="proj-skill-info">
-            <div class="outside-container">
-                <div id="projects">
-                    <div class="project animate-scroll" id="umapukata">
-                        <div class="text">
-                            <h5 class="text date">December 2024</h5>
-                            <h4 class="text header">umapukatadotcoza</h4>
-                            <h6 class="text subheader">HTML | CSS | JavaScript | C# | ASP.NET Core MVC | Bootstrap | MVC | .NET 8 | Photoshop</h6>
-                            <p>
-                                I created this portfolio website using ASP.NET Core MVC, 
-                                featuring responsive design, dark mode, animations, and live chat. 
-                                Implemented CI/CD through GitHub and Railway for automated deployments.
-                            </p>
-                        </div>
-                        <div id="button-div">
-                            <a class="git-btn" target="_blank" href="https://github.com/UlwaziM/umapukatadotcoza">View on Github</a>
-                        </div>
-                    </div>
-                    <div class="project animate-scroll" id="soliddemo">
-                        <div class="text">
-                            <h5 class="text date">January 2025</h5>
-                            <h4 class="text header">DotNET CSharp SOLID demos</h4>
-                            <h6 class="text subheader">C# | .NET 8</h6>
-                            <p>
-                                This repository contains five solution, each demonstrating one of the principles in action. 
-                                All the solutions contain exactly the same application that is gradually being refactored to adhere to each of the SOLID principles.
-                            </p>
-                        </div>
-                        <div id="button-div">
-                            <a class="git-btn" target="_blank" href="https://github.com/UlwaziM/DotNET-CSharp-S.O.L.I.D-demos">View on GitHub</a>
-                        </div>
-                    </div>
-                    <div class="project animate-scroll" id="bookstore">
-                        <div class="text">
-                            <h5 class="text date">January 2025</h5>
-                            <h4 class="text header">BookStoreApi</h4>
-                            <h6 class="text subheader">ASP.NET Core | MongoDB | C# | .NET 8 </h6>
-                            <p> 
-                                This is a web API that runs C.R.U.D operations on a MongoDB NoSQL database which I created using ASP.NET Core for learning purposes.
-                        
-                            </p>
-                        </div>
-                        <div id="button-div">
-                            <a class="git-btn" target="_blank" href="https://github.com/UlwaziM/BookStoreApi">View on Github</a>
-                        </div>
-                    </div>
-                    <div class="project animate-scroll" id="eth">
-                        <div class="text">
-                            <h5 class="text date">January 2025</h5>
-                            <h4 class="text header">Eth Todo List</h4>
-                            <h6 class="text subheader">Solidity | Truffle | Ganache | Web3.js | MetaMask</h6>
-                            <p>
-                                This Web3 project is a decentralized to-do list app on the Ethereum blockchain,
-                                using smart contracts for data and business logic, ensuring immutability and 
-                                security by avoiding centralized servers.
-                            </p>
-                        </div>
-                        <div id="button-div">
-                            <a class="git-btn" target="_blank" href="https://github.com/UlwaziM/eth-todo-list">View on GitHub</a>
-                        </div>
+</section>
+
+<!-- Projects -->
+<section class="section" id="projects" style="background: var(--bg-secondary); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+    <div class="container">
+        <span class="section-label animate-on-scroll">Selected Projects</span>
+        <h2 class="section-title animate-on-scroll">Engineering Case Studies</h2>
+        <p class="section-subtitle animate-on-scroll">Substantial engineering work — from independently built products to enterprise-grade payment infrastructure.</p>
+
+        <div class="projects-grid stagger-children">
+            <!-- PAM -->
+            <div class="project-card animate-on-scroll">
+                <span class="project-category">Fintech · Payroll Infrastructure · SaaS</span>
+                <h3 class="project-name">Payroll Aggregation by M-Works™ (PAM)</h3>
+                <p class="project-description">
+                    A multi-tenant payroll orchestration platform designed to streamline payroll execution, 
+                    statutory obligations, payment initiation and reconciliation for businesses.
+                </p>
+                <div class="project-tech">
+                    <span>ASP.NET Core 9</span>
+                    <span>C#</span>
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>EF Core</span>
+                    <span>PostgreSQL</span>
+                    <span>REST APIs</span>
+                    <span>Docker</span>
+                    <span>CI/CD</span>
+                </div>
+                <button class="case-study-toggle" data-target="pam-detail" aria-expanded="false">
+                    View Case Study <span class="arrow">▾</span>
+                </button>
+                <div class="case-study-detail" id="pam-detail">
+                    <div class="case-study-content">
+                        <h4>Business Problem</h4>
+                        <p>Payroll processing in many South African businesses remains fragmented — statutory calculations, payment initiation and reconciliation are often handled across disconnected systems, leading to errors and delays.</p>
+                        <h4>Engineering Challenges</h4>
+                        <ul>
+                            <li>Designing a multi-tenant architecture with secure tenant isolation.</li>
+                            <li>Implementing payroll processing workflows with statutory compliance rules.</li>
+                            <li>Building payment integrations for initiating and reconciling payroll disbursements.</li>
+                            <li>Ensuring secure API design with authentication and authorisation.</li>
+                        </ul>
+                        <h4>Architecture & Implementation</h4>
+                        <ul>
+                            <li>Multi-tenant SaaS with tenant-scoped data access and configuration.</li>
+                            <li>ASP.NET Core 9 backend with Entity Framework Core and PostgreSQL.</li>
+                            <li>React/TypeScript frontend for payroll management and reporting.</li>
+                            <li>Containerised deployments using Docker with CI/CD pipeline automation.</li>
+                        </ul>
+                        <h4>Key Outcomes</h4>
+                        <ul>
+                            <li>Functional payroll orchestration with statutory payment workflows.</li>
+                            <li>Secure REST API layer supporting multi-tenant operations.</li>
+                            <li>Automated deployment infrastructure for rapid iteration.</li>
+                        </ul>
+                        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted); font-style: italic;">
+                            PAM is a product developed under M-Works™ by Fakade Innovations (Pty) Ltd.
+                        </p>
                     </div>
                 </div>
-              
             </div>
-            <div class="outside-container" id="skill-container">
-                <h3 class="proj-title">Technical Skills</h3>
-                <div id="skills">
-                    <img class="skill-icon" id="azuredevops" src="images/azure-devops-icon.png" />
-                    <img class="skill-icon" id="sqlserver" src="images/sql-icon.png" />
-                    <img class="skill-icon" id="csharp" src="images/csharp-icon.png" />
-                    <img class="skill-icon" id="javascript" src="images/js-icon.png" />
-                    <img class="skill-icon" id="html5" src="images/html-icon.png" />
-                    <img class="skill-icon" id="css3" src="images/css-icon.png" />
-                    <img class="skill-icon" id="julia" src="images/julia-icon.png" />
-                    <img class="skill-icon" id="dotnet" src="images/net-icon.png" />
-                    <img class="skill-icon" id="bootstrap" src="images/bootstrap-icon.png" />
-                    <img class="skill-icon" id="dotnetcore" src="images/dotnetcore-icon.png" />
-                    <img class="skill-icon" id="aspdotnet" src="images/aspdotnetmvc-icon.png" />
-                    <img class="skill-icon" id="mongodb" src="images/mongodb-icon.png" />
-                    <img class="skill-icon" id="objectivec" src="images/objectivec-icon.png" />
-                    <img class="skill-icon" id="xaml" src="images/xaml-icon.png" />
-                    <img class="skill-icon" id="qgis" src="images/qgis-icon.png" />
-                    <img class="skill-icon" id="docker" src="images/docker-icon.png" />
-                    <img class="skill-icon" id="solidity" src="~/images/solidity-icon.png"/>
-                    <img class="skill-icon" id="truffle" src="~/images/truffle-suite-icon.png" />
-                    <img class="skill-icon" id="ganache" src="~/images/ganache-icon.png" />
-                    <img class="skill-icon" id="web3js" src="~/images/web3-icon.png" />
-                    <img class="skill-icon" id="metamask" src="~/images/metamask-icon.png" />
 
+            <!-- Tshapisa -->
+            <div class="project-card animate-on-scroll">
+                <span class="project-category">Business Operations · Multi-Tenant SaaS</span>
+                <h3 class="project-name">Tshapisa</h3>
+                <p class="project-description">
+                    A white-label business platform designed to help businesses manage online sales, services, 
+                    customer interactions and operational workflows through configurable merchant storefronts.
+                </p>
+                <div class="project-tech">
+                    <span>ASP.NET Core</span>
+                    <span>C#</span>
+                    <span>PostgreSQL</span>
+                    <span>REST APIs</span>
+                    <span>Docker</span>
+                </div>
+                <button class="case-study-toggle" data-target="tshapisa-detail" aria-expanded="false">
+                    View Case Study <span class="arrow">▾</span>
+                </button>
+                <div class="case-study-detail" id="tshapisa-detail">
+                    <div class="case-study-content">
+                        <h4>Business Problem</h4>
+                        <p>Small and medium businesses often lack affordable, integrated platforms for managing online presence, orders, bookings and logistics from a single system.</p>
+                        <h4>Engineering Challenges</h4>
+                        <ul>
+                            <li>Designing multi-tenant platform architecture with white-label capability.</li>
+                            <li>Building configurable product/service catalogues per merchant.</li>
+                            <li>Integrating payment gateways and third-party logistics providers.</li>
+                            <li>Supporting online ordering, booking workflows and customer interactions.</li>
+                        </ul>
+                        <h4>Architecture & Implementation</h4>
+                        <ul>
+                            <li>Multi-tenant architecture with merchant-specific configuration and branding.</li>
+                            <li>White-label storefronts with customisable themes and layouts.</li>
+                            <li>Payment gateway integrations for secure transaction processing.</li>
+                            <li>Third-party logistics integration for order fulfilment.</li>
+                        </ul>
+                        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted); font-style: italic;">
+                            Tshapisa is a product being developed under M-Works™ by Fakade Innovations (Pty) Ltd.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-
+            <!-- Retailer Money Transfer -->
+            <div class="project-card animate-on-scroll">
+                <span class="project-category">Enterprise Fintech · Payments</span>
+                <h3 class="project-name">Retailer Money Transfer Platform</h3>
+                <p class="project-description">
+                    A mission-critical payment platform supporting national retail partners with money transfers, 
+                    transaction processing, reconciliation and remediation — processing over 1 million transactions monthly.
+                </p>
+                <div class="project-tech">
+                    <span>C# / .NET</span>
+                    <span>ASP.NET Core</span>
+                    <span>SQL Server</span>
+                    <span>Entity Framework</span>
+                    <span>IIS</span>
+                    <span>Azure DevOps</span>
+                </div>
+                <button class="case-study-toggle" data-target="rmt-detail" aria-expanded="false">
+                    View Case Study <span class="arrow">▾</span>
+                </button>
+                <div class="case-study-detail" id="rmt-detail">
+                    <div class="case-study-content">
+                        <h4>Business Problem</h4>
+                        <p>National retail partners required a robust, high-availability payment platform for money transfer services, with real-time processing, reconciliation and remediation capabilities.</p>
+                        <h4>Engineering Challenges</h4>
+                        <ul>
+                            <li>Ensuring 99.9% availability for a mission-critical financial system.</li>
+                            <li>Scaling to handle over 1 million monthly transactions reliably.</li>
+                            <li>Implementing enterprise integrations with multiple banking systems and retail partners.</li>
+                            <li>Performance optimisation under high-concurrency conditions.</li>
+                        </ul>
+                        <h4>Architecture & Implementation</h4>
+                        <ul>
+                            <li>Secure payment processing with end-to-end encryption.</li>
+                            <li>Enterprise integrations with internal banking systems and external retail APIs.</li>
+                            <li>Hosted on IIS with load balancing, SSL and disaster recovery.</li>
+                            <li>Monitored via Grafana and New Relic for real-time observability.</li>
+                        </ul>
+                        <h4>Key Outcomes</h4>
+                        <ul>
+                            <li>99.9% platform availability maintained consistently.</li>
+                            <li>More than 1 million monthly transactions processed reliably.</li>
+                            <li>Improved performance and deployment automation over time.</li>
+                        </ul>
+                        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted); font-style: italic;">
+                            This platform was developed during my time at Absa Bank Limited. No proprietary architecture or confidential details are disclosed.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</body>
+</section>
+
+<!-- Technical Expertise -->
+<section class="skills-section section" id="skills">
+    <div class="container">
+        <span class="section-label animate-on-scroll">Technical Expertise</span>
+        <h2 class="section-title animate-on-scroll">Skills & Technologies</h2>
+        <p class="section-subtitle animate-on-scroll">Demonstrated capability across the full engineering stack.</p>
+
+        <div class="skills-grid stagger-children">
+            <div class="skill-group animate-on-scroll">
+                <h3 class="skill-group-title">Languages & Frameworks</h3>
+                <div class="skill-tags">
+                    <span>C#</span>
+                    <span>.NET</span>
+                    <span>ASP.NET Core</span>
+                    <span>ASP.NET MVC</span>
+                    <span>Entity Framework Core</span>
+                    <span>WPF</span>
+                    <span>Python</span>
+                    <span>React</span>
+                    <span>TypeScript</span>
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                </div>
+            </div>
+            <div class="skill-group animate-on-scroll">
+                <h3 class="skill-group-title">Architecture</h3>
+                <div class="skill-tags">
+                    <span>REST APIs</span>
+                    <span>Distributed Systems</span>
+                    <span>Microservices</span>
+                    <span>Clean Architecture</span>
+                    <span>Multi-Tenant SaaS</span>
+                    <span>Secure API Design</span>
+                    <span>Event-Driven Architecture</span>
+                </div>
+            </div>
+            <div class="skill-group animate-on-scroll">
+                <h3 class="skill-group-title">Databases</h3>
+                <div class="skill-tags">
+                    <span>PostgreSQL</span>
+                    <span>SQL Server</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <div class="skill-group animate-on-scroll">
+                <h3 class="skill-group-title">Cloud & DevOps</h3>
+                <div class="skill-tags">
+                    <span>CI/CD</span>
+                    <span>Azure DevOps</span>
+                    <span>Drone CI</span>
+                    <span>Linux</span>
+                    <span>Docker</span>
+                    <span>Podman</span>
+                    <span>Nginx</span>
+                    <span>IIS</span>
+                </div>
+            </div>
+            <div class="skill-group animate-on-scroll">
+                <h3 class="skill-group-title">AI Engineering</h3>
+                <div class="skill-tags">
+                    <span>AI Code Evaluation</span>
+                    <span>Repository-Based SE Evaluation</span>
+                    <span>Structured Model Assessment</span>
+                    <span>Agentic Safety</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications & Education -->
+<section class="section" id="certifications">
+    <div class="container">
+        <span class="section-label animate-on-scroll">Credentials</span>
+        <h2 class="section-title animate-on-scroll">Certifications & Education</h2>
+        <p class="section-subtitle animate-on-scroll">Professional qualifications and continuous learning.</p>
+
+        <div class="certs-list stagger-children">
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">🏅</div>
+                <div class="cert-info">
+                    <h4>Build Distributed Apps with .NET Aspire</h4>
+                    <p>Microsoft Applied Skills</p>
+                </div>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">☕</div>
+                <div class="cert-info">
+                    <h4>Certified Professional: Java SE Programmer</h4>
+                    <p>Oracle</p>
+                </div>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">🔄</div>
+                <div class="cert-info">
+                    <h4>Certified Scrum Master (CSM)</h4>
+                    <p>Scrum Alliance</p>
+                </div>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">🎓</div>
+                <div class="cert-info">
+                    <h4>National Diploma: Information Technology</h4>
+                    <p>Walter Sisulu University</p>
+                </div>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">🏦</div>
+                <div class="cert-info">
+                    <h4>National Certificate: Banking Services Advice</h4>
+                    <p>Milpark Business School</p>
+                </div>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">📊</div>
+                <div class="cert-info">
+                    <h4>Certificate in Data Science</h4>
+                    <p>Julia Academy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact section" id="contact">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-info animate-on-scroll">
+                <span class="section-label">Get In Touch</span>
+                <h2>Have an interesting engineering challenge?</h2>
+                <p>
+                    I'm always open to conversations about software engineering, architecture, 
+                    product development and opportunities to build useful technology.
+                </p>
+                <ul class="contact-links">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        <a href="mailto:ulwazim@gmail.com">ulwazim@gmail.com</a>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        <a href="https://linkedin.com/in/ulwazim" target="_blank" rel="noopener noreferrer">linkedin.com/in/ulwazim</a>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                        <a href="https://github.com/UlwaziM" target="_blank" rel="noopener noreferrer">github.com/UlwaziM</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="animate-on-scroll" style="display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-start; padding-top: 3rem;">
+                <a href="/Resume/Ulwazi_Mapukata_Resume_ZA.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download Resume
+                </a>
+                <a href="mailto:ulwazim@gmail.com" class="btn btn-outline">Send an Email</a>
+            </div>
+        </div>
+    </div>
+</section>

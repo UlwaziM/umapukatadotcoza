@@ -1,270 +1,120 @@
-﻿/*
-    This script handles the interactive behavior of my portfolio
-    website. It provides functionality to automatically close the navigation
-    toggler, change the expand button text to "Collapse" on click, to open
-    collapsed sections, to change skill icon color on project hover, to toggle
-    dark mode, to change the background based on mouse position, and to track
-    users' eye' location when it is toggled.
-
-    Author: Ulwazi Mapukata
-    Date: 10/12/2024
-*/
-
 /**
-    Automatically closes the navigation list upon clicking one of its anchors.
-*/
-function closeNavList() {
-    if (window.innerWidth < 710) {
-        const navButton = document.getElementById("toggler");
-        navButton.click();
+ * Ulwazi Mapukata — Portfolio
+ * Site interactions: navigation, scroll animations, case study toggles
+ * Author: Ulwazi Mapukata
+ */
+
+(function () {
+    'use strict';
+
+    // --- Mobile Navigation Toggle ---
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    if (navToggle && navLinks) {
+        navToggle.addEventListener('click', function () {
+            const isOpen = navLinks.classList.toggle('open');
+            navToggle.classList.toggle('active', isOpen);
+            navToggle.setAttribute('aria-expanded', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        });
+
+        // Close nav when a link is clicked
+        navLinks.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                navLinks.classList.remove('open');
+                navToggle.classList.remove('active');
+                navToggle.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            });
+        });
     }
-}
 
-/**
-    Expands the education and experiences collapsible on clicking the
-    "My Credentials" button.
-*/
-function openEduExp() {
-    const expandButton = document.getElementById("edu-exp-expand");
-    if (expandButton.innerHTML === 'Expand<br>∨') {
-        expandButton.click();
-    }
-}
-
-/**
-    Expands the skills collapsible on clicking the
-    "more" button.
-*/
-function openSkills() {
-    const skillExpandButton = document.getElementById("skill-expand-button")
-    if (skillExpandButton.innerHTML === 'Expand<br>∨') {
-        skillExpandButton.click();
-    }
-}
-
-/**
-    Changes button text of the .expand class when they are clicked to
-    display "Collapse" instead of "Expand" when the associated dropdown
-    is open.
-*/
-function toggleExpandText(event) {
-    const expandButton = event.target;
-    const targetId = expandButton.getAttribute('data-bs-target');
-    const targetElement = document.querySelector(targetId);
-
-    setTimeout(() => {
-        if (targetElement.classList.contains('show')) {
-            expandButton.innerHTML = 'Collapse<br>∨';
-        } else {
-            expandButton.innerHTML = 'Expand<br>∨';
-        }
-    }, 360);
-}
-
-/**
-    Changes the color of the skill icons depending on which project is being
-    hovered over.
-*/
-function addSkillColors(event) {
-    const project = event.currentTarget;
-    if (project.id === 'umapukata') {
-        for (skill of ['html5', 'css3', 'javascript', 'csharp', 'dotnetcore','aspdotnet', 'bootstrap', 'photoshop']) {
-            skillElement = document.getElementById(skill);
-            skillElement.classList.add("selected");
-        }
-    }
-    if (project.id === 'soliddemo') {
-        for (skill of ['csharp', 'dotnet']) {
-            skillElement = document.getElementById(skill);
-            skillElement.classList.add("selected");
-        }
-    }
-    if (project.id === 'bookstore') {
-        for (skill of ['csharp', 'dotnet', 'mongodb', 'csharp','dotnetcore']) {
-            skillElement = document.getElementById(skill);
-            skillElement.classList.add("selected");
-        }
-    }
-    if (project.id === 'eth') {
-        for (skill of ['solidity', 'truffle', 'ganache', 'web3js', 'metamask']) {
-            skillElement = document.getElementById(skill);
-            skillElement.classList.add("selected");
-        }
-    }
-    
-}
-
-/**
-    Reverts colors of skill icons after hover ends.
-*/
-function removeSkillColors(event) {
-    for (skill of document.getElementsByClassName('skill-icon')) {
-        skill.classList.remove("selected");
-    }
-}
-/**
-    Animates items as they scroll into frame.
-*/
-function animateScroll() {
-    const elements = document.querySelectorAll(".animate-scroll");
-    for (const element of elements) {
-        const rect = element.getBoundingClientRect();
-        const display = window.getComputedStyle(element).display;
-        if (display !== 'none' &&
-            rect.bottom >= 75 &&
-            rect.top <= (window.innerHeight || document.documentElement.clientHeight) - 75) {
-            element.classList.add('animate');
-        } else {
-            element.classList.remove('animate');
-        }
-    }
-}
-
-/**
-    Scales the background div in the introduction section when the mouse moves
-    across the screen.
-*/
-function animateBackgroundAndHeadshot(event) {
-    try {
-        const width = window.innerWidth;
-        const div = document.getElementById('bg-div')
-        const mousePosX = Math.min(.7, event.clientX / width);
-        if (width >= 710) {
-            div.style.width = '38.5vw';
-            const mousePosX = Math.min(.7, event.clientX / width);
-            div.style.width = (0.37 + (0.03 * mousePosX)) * width + 'px';
-        } else {
-            div.style.width = '100vw';
-        }
-
-        const headshot = document.getElementById('headshot-color');
-        headshot.style.maxWidth = mousePosX / 0.7 * 100 + '%';
-    } catch { }
-}
-
-/**
-    Toggles dark mode by changing the color of certain elements and changing
-    certain images
-*/
-function toggleDarkMode() {
-    const toggleBtn = document.getElementById('moon-btn');
-    elements = document.querySelectorAll('*');
-    const darkModeImage = document.getElementById('moon-img');
-    const topRightLine = document.getElementById('top-right-line');
-    const bottomLeftLine = document.getElementById('bottom-left-line');
-    if (toggleBtn.checked) {
-        localStorage.setItem('darkMode', 'on');
-        for (const element of elements) {
-            element.classList.add('darkmode');
-        }
-        darkModeImage.src = '/images/sun.png';
-        try {
-            topRightLine.src = '/images/dark-top-right-line.png';
-            bottomLeftLine.src = '/images/dark-bottom-left-line.png';
-        } catch { }
-
-    } else {
-        localStorage.setItem('darkMode', 'off');
-        for (const element of elements) {
-            element.classList.remove('darkmode')
-        }
-        darkModeImage.src = '/images/moon.png'
-        try {
-            topRightLine.src = '/images/top-right-line.png';
-            bottomLeftLine.src = '/images/bottom-left-line.png';
-        } catch { }
-    }
-}
-
-/**
-    Syncs dark mode settings between the privacy and home pages.
-*/
-function syncDarkMode() {
-    try {
-        const status = localStorage.getItem('darkMode');
-        if (status === 'on') {
-            if (!document.getElementById('moon-btn').checked) {
-                document.getElementById('moon-btn').click();
-            }
-        } else {
-            if (document.getElementById('moon-btn').checked) {
-                document.getElementById('moon-btn').click();
+    // --- Scroll Animations ---
+    function handleScrollAnimations() {
+        var elements = document.querySelectorAll('.animate-on-scroll');
+        var windowHeight = window.innerHeight;
+        for (var i = 0; i < elements.length; i++) {
+            var el = elements[i];
+            var rect = el.getBoundingClientRect();
+            if (rect.top < windowHeight - 80 && rect.bottom > 0) {
+                el.classList.add('visible');
             }
         }
-    } catch { }
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    // closeNavList()
-    const links = document.getElementsByClassName("nav-link");
-    for (const link of links) {
-        link.addEventListener('click', closeNavList)
     }
 
-    // openEduExp()
-    const credButton = document.getElementById('credentials-button');
-    try {
-        credButton.addEventListener('click', openEduExp);
-    } catch {
-        
-    }
+    window.addEventListener('scroll', handleScrollAnimations, { passive: true });
+    window.addEventListener('resize', handleScrollAnimations, { passive: true });
+    // Initial check
+    handleScrollAnimations();
+    // Delayed check for layout shifts
+    setTimeout(handleScrollAnimations, 200);
 
-    // openSkills()
-    const moreButton = document.getElementById('more-skills');
-    try {
-        moreButton.addEventListener('click', openSkills);
-    } catch {
-        
-    }
+    // --- Case Study Toggles ---
+    var toggles = document.querySelectorAll('.case-study-toggle');
+    for (var i = 0; i < toggles.length; i++) {
+        (function (toggle) {
+            toggle.addEventListener('click', function () {
+                var targetId = toggle.getAttribute('data-target');
+                var detail = document.getElementById(targetId);
+                if (!detail) return;
 
-    // toggleExpandText()
-    const expandButtons = document.getElementsByClassName('expand');
-    for (const btn of expandButtons) {
-        btn.addEventListener('click', toggleExpandText);
-    }
+                var isActive = toggle.classList.contains('active');
 
-    // addSkillColors() + removeSkillColors()
-    const projects = document.getElementsByClassName('project');
-    for (const project of projects) {
-        project.addEventListener('mouseover', addSkillColors)
-        project.addEventListener('mouseout', removeSkillColors)
-    }
-
-    // animateScroll()
-    window.addEventListener('scroll', animateScroll);
-    window.addEventListener('resize', animateScroll);
-    animateScroll();
-    const expandbtns = document.getElementsByClassName('expand');
-    for (const btn of expandbtns) {
-        btn.addEventListener('click', animateScroll);
-    }
-
-    // animateBackgroundAndHeadshot()
-    window.addEventListener('resize', animateBackgroundAndHeadshot);
-    window.addEventListener('mousemove', animateBackgroundAndHeadshot);
-
-    // toggleDarkMode()
-    toggleBtn = document.getElementById('moon-btn');
-    toggleBtn.addEventListener('change', toggleDarkMode);
-    moonBtn = document.getElementById('moon-btn');
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        if (!moonBtn.checked) {
-            moonBtn.click();
-        }
-    }
-    window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener('change', event => {
-            if (event.matches) {
-                if (!moonBtn.checked) {
-                    moonBtn.click();
+                if (isActive) {
+                    detail.style.maxHeight = null;
+                    detail.classList.remove('open');
+                    toggle.classList.remove('active');
+                    toggle.setAttribute('aria-expanded', 'false');
+                } else {
+                    detail.style.maxHeight = detail.scrollHeight + 'px';
+                    detail.classList.add('open');
+                    toggle.classList.add('active');
+                    toggle.setAttribute('aria-expanded', 'true');
                 }
-            } else {
-                if (moonBtn.checked) {
-                    moonBtn.click();
-                }
-            }
-        })
+            });
+        })(toggles[i]);
+    }
 
-    // syncDarkMode()
-    window.addEventListener('DOMContentLoaded', syncDarkMode);
-});
+    // --- Active Nav Highlight ---
+    var sections = document.querySelectorAll('section[id]');
+    function highlightNav() {
+        var scrollPos = window.scrollY + 120;
+        for (var i = sections.length - 1; i >= 0; i--) {
+            var section = sections[i];
+            if (section.offsetTop <= scrollPos) {
+                var id = section.getAttribute('id');
+                var links = document.querySelectorAll('.nav-links a');
+                for (var j = 0; j < links.length; j++) {
+                    var href = links[j].getAttribute('href');
+                    if (href === '#' + id) {
+                        links[j].style.color = 'var(--accent)';
+                    } else {
+                        links[j].style.color = '';
+                    }
+                }
+                break;
+            }
+        }
+    }
+
+    window.addEventListener('scroll', highlightNav, { passive: true });
+    highlightNav();
+
+    // --- Nav Background on Scroll ---
+    var nav = document.querySelector('.site-nav');
+    function updateNavBg() {
+        if (window.scrollY > 50) {
+            nav.style.background = 'rgba(11, 15, 26, 0.97)';
+            nav.style.borderBottomColor = 'rgba(200, 147, 58, 0.2)';
+        } else {
+            nav.style.background = 'rgba(11, 15, 26, 0.9)';
+            nav.style.borderBottomColor = 'rgba(200, 147, 58, 0.15)';
+        }
+    }
+    if (nav) {
+        window.addEventListener('scroll', updateNavBg, { passive: true });
+        updateNavBg();
+    }
+
+})();
