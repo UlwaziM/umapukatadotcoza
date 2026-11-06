@@ -40,7 +40,10 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
                 </a>
                 <a href="mailto:ulwazim@gmail.com" aria-label="Email">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    <svg class="icon-outline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
                 </a>
             </div>
         </div>
@@ -183,39 +186,13 @@
                     <span>PostgreSQL</span>
                     <span>REST APIs</span>
                     <span>Docker</span>
+                    <span>Podman</span>
                     <span>CI/CD</span>
                 </div>
-                <button class="case-study-toggle" data-target="pam-detail" aria-expanded="false">
-                    View Case Study <span class="arrow">▾</span>
-                </button>
-                <div class="case-study-detail" id="pam-detail">
-                    <div class="case-study-content">
-                        <h4>Business Problem</h4>
-                        <p>Payroll processing in many South African businesses remains fragmented — statutory calculations, payment initiation and reconciliation are often handled across disconnected systems, leading to errors and delays.</p>
-                        <h4>Engineering Challenges</h4>
-                        <ul>
-                            <li>Designing a multi-tenant architecture with secure tenant isolation.</li>
-                            <li>Implementing payroll processing workflows with statutory compliance rules.</li>
-                            <li>Building payment integrations for initiating and reconciling payroll disbursements.</li>
-                            <li>Ensuring secure API design with authentication and authorisation.</li>
-                        </ul>
-                        <h4>Architecture & Implementation</h4>
-                        <ul>
-                            <li>Multi-tenant SaaS with tenant-scoped data access and configuration.</li>
-                            <li>ASP.NET Core 9 backend with Entity Framework Core and PostgreSQL.</li>
-                            <li>React/TypeScript frontend for payroll management and reporting.</li>
-                            <li>Containerised deployments using Docker with CI/CD pipeline automation.</li>
-                        </ul>
-                        <h4>Key Outcomes</h4>
-                        <ul>
-                            <li>Functional payroll orchestration with statutory payment workflows.</li>
-                            <li>Secure REST API layer supporting multi-tenant operations.</li>
-                            <li>Automated deployment infrastructure for rapid iteration.</li>
-                        </ul>
-                        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted); font-style: italic;">
-                            PAM is a product developed under M-Works™ by Fakade Innovations (Pty) Ltd.
-                        </p>
-                    </div>
+                <div class="project-card-footer">
+                    <button type="button" class="btn btn-outline btn-case-study" data-project-key="pam" aria-haspopup="dialog" aria-controls="case-study-modal">
+                        View Case Study
+                    </button>
                 </div>
             </div>
 
@@ -228,37 +205,17 @@
                     customer interactions and operational workflows through configurable merchant storefronts.
                 </p>
                 <div class="project-tech">
-                    <span>ASP.NET Core</span>
-                    <span>C#</span>
+                    <span>TypeScript</span>
+                    <span>Next.js 15 (App Router)</span>
+                    <span>Prisma</span>
                     <span>PostgreSQL</span>
-                    <span>REST APIs</span>
-                    <span>Docker</span>
+                    <span>Tailwind CSS</span>
+                    <span>Podman</span>
                 </div>
-                <button class="case-study-toggle" data-target="tshapisa-detail" aria-expanded="false">
-                    View Case Study <span class="arrow">▾</span>
-                </button>
-                <div class="case-study-detail" id="tshapisa-detail">
-                    <div class="case-study-content">
-                        <h4>Business Problem</h4>
-                        <p>Small and medium businesses often lack affordable, integrated platforms for managing online presence, orders, bookings and logistics from a single system.</p>
-                        <h4>Engineering Challenges</h4>
-                        <ul>
-                            <li>Designing multi-tenant platform architecture with white-label capability.</li>
-                            <li>Building configurable product/service catalogues per merchant.</li>
-                            <li>Integrating payment gateways and third-party logistics providers.</li>
-                            <li>Supporting online ordering, booking workflows and customer interactions.</li>
-                        </ul>
-                        <h4>Architecture & Implementation</h4>
-                        <ul>
-                            <li>Multi-tenant architecture with merchant-specific configuration and branding.</li>
-                            <li>White-label storefronts with customisable themes and layouts.</li>
-                            <li>Payment gateway integrations for secure transaction processing.</li>
-                            <li>Third-party logistics integration for order fulfilment.</li>
-                        </ul>
-                        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted); font-style: italic;">
-                            Tshapisa is a product being developed under M-Works™ by Fakade Innovations (Pty) Ltd.
-                        </p>
-                    </div>
+                <div class="project-card-footer">
+                    <button type="button" class="btn btn-outline btn-case-study" data-project-key="tshapisa" aria-haspopup="dialog" aria-controls="case-study-modal">
+                        View Case Study
+                    </button>
                 </div>
             </div>
 
@@ -278,37 +235,31 @@
                     <span>IIS</span>
                     <span>Azure DevOps</span>
                 </div>
-                <button class="case-study-toggle" data-target="rmt-detail" aria-expanded="false">
-                    View Case Study <span class="arrow">▾</span>
-                </button>
-                <div class="case-study-detail" id="rmt-detail">
-                    <div class="case-study-content">
-                        <h4>Business Problem</h4>
-                        <p>National retail partners required a robust, high-availability payment platform for money transfer services, with real-time processing, reconciliation and remediation capabilities.</p>
-                        <h4>Engineering Challenges</h4>
-                        <ul>
-                            <li>Ensuring 99.9% availability for a mission-critical financial system.</li>
-                            <li>Scaling to handle over 1 million monthly transactions reliably.</li>
-                            <li>Implementing enterprise integrations with multiple banking systems and retail partners.</li>
-                            <li>Performance optimisation under high-concurrency conditions.</li>
-                        </ul>
-                        <h4>Architecture & Implementation</h4>
-                        <ul>
-                            <li>Secure payment processing with end-to-end encryption.</li>
-                            <li>Enterprise integrations with internal banking systems and external retail APIs.</li>
-                            <li>Hosted on IIS with load balancing, SSL and disaster recovery.</li>
-                            <li>Monitored via Grafana and New Relic for real-time observability.</li>
-                        </ul>
-                        <h4>Key Outcomes</h4>
-                        <ul>
-                            <li>99.9% platform availability maintained consistently.</li>
-                            <li>More than 1 million monthly transactions processed reliably.</li>
-                            <li>Improved performance and deployment automation over time.</li>
-                        </ul>
-                        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--text-muted); font-style: italic;">
-                            This platform was developed during my time at Absa Bank Limited. No proprietary architecture or confidential details are disclosed.
-                        </p>
+                <div class="project-card-footer">
+                    <button type="button" class="btn btn-outline btn-case-study" data-project-key="rmt" aria-haspopup="dialog" aria-controls="case-study-modal">
+                        View Case Study
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Case Study Reusable Modal -->
+        <div id="case-study-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-project-title" aria-hidden="true" tabindex="-1">
+            <div class="modal-container" role="document">
+                <header class="modal-header">
+                    <div class="modal-header-text">
+                        <span class="modal-category" id="modal-project-category"></span>
+                        <h3 class="modal-title" id="modal-project-title"></h3>
                     </div>
+                    <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close case study dialog">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </header>
+                <div class="modal-body" id="modal-project-body">
+                    <!-- Dynamic case study content populated by JavaScript -->
                 </div>
             </div>
         </div>
@@ -453,7 +404,7 @@
                 </p>
                 <ul class="contact-links">
                     <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        <svg class="icon-outline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
                         <a href="mailto:ulwazim@gmail.com">ulwazim@gmail.com</a>
                     </li>
                     <li>
